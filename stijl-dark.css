@@ -1,0 +1,123 @@
+nav {
+	background-image: linear-gradient(#FFE19C,black) ;
+	width: 25vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5rem;
+	margin-bottom: 3rem;
+  z-index: 2;
+}
+
+h1{
+	margin-left: 15rem;
+}
+
+.afb1{
+	background-image: url(afb1.jpg);
+	background-size: 20%;
+	height: 40rem;
+	background-repeat: no-repeat;
+  position: relative;
+	top:-60rem;
+  left:90rem;
+  z-index: 1;
+  top: 10rem;
+}
+
+.afb2{
+	background-image: url(afb2.jpg);
+  background-size: 20%;
+	height: 40rem;
+	background-repeat: no-repeat;
+  position: relative;
+  left:60rem;
+  top: -5rem;
+  z-index: 0;
+}
+
+.afb3{
+	background-image: url(afb3.jpg);
+  background-size: 20%;
+  height: 40rem;
+  background-repeat: no-repeat;
+  position: relative;
+  left:80rem;
+	top:-10rem;
+  z-index: 0;
+}
+
+.afb4{
+	background-image: url(afb4.jpg);
+  background-size: 20%;
+	height: 40rem;
+	background-repeat: no-repeat;
+  position: relative;
+  left:80rem;
+	top:15rem;
+  z-index: 1;
+}
+
+.afb5{
+	background-image: url(afb5.png);
+  background-size: 20%;
+  height: 40rem;
+  background-repeat: no-repeat;
+  position: relative;
+  left:60rem;
+  z-index: 0;
+}
+
+.afb6{
+	background-image: url(afb6.jpg);
+  background-size: 20%;
+	height: 40rem;
+	background-repeat: no-repeat;
+  position: relative;
+  left:30rem;
+  z-index: 0;
+}
+
+.afb7{
+	background-image: url(afb7.jpg);
+  background-size: 20%;
+  height: 40rem;
+  background-repeat: no-repeat;
+  position: relative;
+  left:20rem;
+  z-index: 0;
+}
+
+.afb8{
+	background-image: url(afb8.jpg);
+  background-size: 20%;
+  height: 40rem;
+  background-repeat: no-repeat;
+  position: relative;
+	top:-55rem;
+  left:50rem;
+  z-index: 0;
+}
+p{
+	color: white;
+	padding-top: 40rem;
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-family: helvetica;
+}
+.afb1 p{ padding-top: 45rem; padding-left: 15rem;}
+
+.afb2 p{ padding-top: 46rem;}
+
+.afb3 p{ padding-top: 36rem;}
+
+.afb4 p{ padding-top: 36rem; padding-left: 11rem;}
+
+.afb5 p{ padding-top: 26rem;}
+
+.afb6 p{ padding-top: 35rem;}
+
+.afb7 p{ padding-top: 46rem;}
+
+.afb8 p{ padding-top: 36rem; padding-left: 5rem;}

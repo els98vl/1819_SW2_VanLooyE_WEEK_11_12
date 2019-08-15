@@ -1,0 +1,103 @@
+body {
+	background-color: #363534;
+	padding: 3rem;
+	font-family: helvetica;
+	font-size: 2rem;
+	}
+
+	h1{
+	  animation-name: naamflip ;
+	  animation-duration: 3s;
+	  animation-timing-function: ease-in;
+	}
+	@keyframes naamflip {
+	  10%{transform:scale(0.2);
+	      opacity: 0;}
+	  30%{transform: scale(1.5);
+	        opacity: 0.5;}
+	  80%{transform: scale(0.8);
+					opacity: 1;}
+	}
+
+
+nav img{
+	height: 30.5rem;
+	margin-bottom: 3rem;
+	border:0.5rem solid white;
+}
+
+nav img{
+  animation-name: fotoflip ;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+}
+@keyframes fotoflip {
+  5%{transform:scale(0.1);
+      opacity: 0;}
+  30%{transform: scale(1.2);
+        opacity: 1;}
+  50%{transform: scale(1);}
+}
+
+	main {
+		min-height: 100vh;
+		padding: 3rem;
+	}
+
+h1 {
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 3rem;
+}
+
+nav a{
+	display: block;
+	color: black;
+	font-size: 2.25rem;
+	margin-bottom: 3rem;
+	text-decoration: none;
+	font-size: 2rem;
+	margin-right: 3rem;
+	padding: .3rem;
+}
+
+nav {
+	background-image: linear-gradient(lightblue,pink);
+	width: 25vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5rem;
+	margin-bottom: 3rem;
+}
+
+nav.onzichtbaar {
+	display: none;
+}
+
+
+.dark{
+	background-color: #363534;
+	color: white;
+	padding: 1rem;
+}
+
+.light {
+	background-color: #F9F9F2;
+	color: black;
+	padding: 1rem;
+}
+
+.menu1{
+	background-color: #ffff;
+	color: black;
+	padding: 1rem;
+
+}
+
+.menu {
+	position: fixed;
+	top: 3rem;
+	right: 3rem;
+}
