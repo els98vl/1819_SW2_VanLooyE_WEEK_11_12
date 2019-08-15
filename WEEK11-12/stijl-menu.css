@@ -1,0 +1,188 @@
+body {
+	background-image: url(background.jpg);
+}
+
+h1  {
+	color: white;
+	font-size: 3rem;
+	font-family: helvetica;
+	margin-left:5.5rem;
+	margin-top: 5.5rem;
+	margin-bottom: 2rem;
+}
+
+h3{
+	color: lightblue;
+	font-size: 3rem;
+	font-family: helvetica;
+	margin-left:5.5rem;
+	margin-bottom: 1rem;
+	background-color: white;
+	padding: 1rem;
+	width: 20rem;
+}
+br{
+
+}
+p{
+	font-size: 2rem;
+	font-family: helvetica;
+	margin-left:5.5rem;
+	background-color: white;
+	padding: 2rem;
+	height: 54rem;
+	width: 50rem;
+
+	text-align: justify;
+	margin-bottom: 2rem;
+}
+
+nav.onzichtbaar{
+display: run-in;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 2.25rem;
+	margin-bottom: 3rem;
+	font-size: 2rem;
+	margin-right: 3rem;
+	padding: .3rem;
+}
+
+nav {
+	background-color: lightblue;
+	width: 25vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5rem;
+	margin-bottom: 3rem;
+	z-index: 0;
+	font-family: helvetica;
+}
+
+.menubalk:hover{
+	color: white;
+
+}
+
+.menu {
+	display: none;
+}
+
+.afbeelding1{
+	background-image: url(afbeelding1.jpg);
+	position: relative;
+	left:5.5rem;
+	background-size: 100%;
+	height: 30rem;
+	background-repeat: no-repeat;
+	border: 0.1rem solid white;
+	width: 20%;
+}
+
+.afbeelding2{
+	background-image: url(afbeelding2.jpg);
+	position: relative;
+	left: 45rem;
+	background-size: 100%;
+	height: 30rem;
+	background-repeat: no-repeat;
+	border: 0.1rem solid white;
+	width: 20%;
+}
+
+.afbeelding3{
+	background-image: url(afbeelding3.jpg);
+	position: relative;
+	left: 85rem;
+	background-size: 100%;
+	height: 30rem;
+	background-repeat: no-repeat;
+	border: 0.1rem solid white;
+	width: 20%;
+
+}
+
+.menu1{
+	display: none;
+}
+
+#een{
+	font-size: 2rem;
+	background-color: black;
+	color:lightblue;
+	width: 12rem;
+	text-align: center;
+}
+#twee{
+	font-size: 2rem;
+	background-color: black;
+	color:lightblue;
+	width: 12rem;
+	text-align: center;
+}
+
+#vier{
+	font-size: 2rem;
+	background-color: black;
+	color:lightblue;
+	width: 12rem;
+	text-align: center;
+	margin-bottom: 15rem;
+}
+@supports (grid-area: auto) {
+
+@media (max-width: 900px) {
+body{
+	background-color: #363534;
+	background-image: none;}
+#een{
+	background-color: grey;
+	color: #FFE19C;}
+
+#twee{
+		background-color: grey;
+		color: #FFE19C;}
+
+#vier{
+			background-color: grey;
+			color:#FFE19C;}
+
+nav {
+	background-color: #FFE19C;}
+
+
+p{
+	width: 50rem;
+	height: 60rem;
+	text-align: center;
+}
+h1{
+	color: white;
+}
+h3{
+	margin-bottom: 2rem;
+	color: #FFE19C;
+}
+
+.afbeelding1{
+	left:5.5rem;
+	background-size: 200%;
+	margin-top: 10rem;
+}
+.afbeelding2{
+	left:5.5rem;
+	background-size: 200%;
+	margin-top: 10rem;
+}
+.afbeelding3{
+	left:5.5rem;
+	background-size: 200%;
+	margin-top: 10rem;}
+}
+}
